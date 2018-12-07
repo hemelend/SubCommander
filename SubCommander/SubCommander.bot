@@ -1,0 +1,103 @@
+{
+    "name": "SubCommander",
+    "description": "",
+    "services": [
+        {
+            "type": "abs",
+            "id": "49",
+            "name": "SubCommander",
+            "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+            "subscriptionId": "8e2cadc0-d5cf-4dcf-a574-78c64fede621",
+            "resourceGroup": "SubCommander",
+            "serviceName": "SubCommander",
+            "appId": "6bbf8485-c871-45fc-bbcd-c27e4b843722"
+        },
+        {
+            "type": "endpoint",
+            "id": "1",
+            "name": "development",
+            "appId": "6bbf8485-c871-45fc-bbcd-c27e4b843722",
+            "appPassword": "NPyGHvsTobDmwiZtGBID1w==!lNOKqI9skAI+G1qeyTB93NktUs2D+hmkXKqlTu9pUMQ=",
+            "endpoint": "http://localhost:3978/api/messages"
+        },
+        {
+            "type": "endpoint",
+            "id": "30",
+            "name": "production",
+            "appId": "6bbf8485-c871-45fc-bbcd-c27e4b843722",
+            "appPassword": "ITfLeGyu10h0V0aLIlqfVQ==!DCCVSI0+s9FHvX8G9zLQ0hfD19gW0mawuimeknanjOg=",
+            "endpoint": "https://ubommanderhvb5.azurewebsites.net/api/messages"
+        },
+        {
+            "type": "appInsights",
+            "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+            "subscriptionId": "8e2cadc0-d5cf-4dcf-a574-78c64fede621",
+            "resourceGroup": "SubCommander",
+            "name": "SubCommanderotwxtc",
+            "serviceName": "SubCommanderotwxtc",
+            "instrumentationKey": "K+97u+UW54rP+t6JtbD6lg==!WPMr14cAvXRMk7LCYCWNrL2FljXtl08tAeoVaL0H+P/mDhEDSVJoZivNzjAgkw/U",
+            "applicationId": "5118d917-fb0e-4ead-ae4e-da6f5e4e3cc8",
+            "apiKeys": {},
+            "id": "3"
+        },
+        {
+            "type": "blob",
+            "id": "2",
+            "name": "ubommand6icq",
+            "serviceName": "ubommand6icq",
+            "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+            "subscriptionId": "8e2cadc0-d5cf-4dcf-a574-78c64fede621",
+            "resourceGroup": "SubCommander",
+            "connectionString": "QekUdabrTHFmfWLmQx4UCg==!GFyA04cHhq4Zuv4Pu6otOH+JPawFy8FEH4UmdQrDXPsSTMLjmj7zjQg1VNJ3VvTIYxj/WWMJV3vH3/eWwwl0kWMmWz/wNjBVdSG5qZNYcRGCSP/WJlGnP9hpyX2BF9YehNFWJxtlC31O/tiN0nvijPEIaT9AO3tpl680jTCabdYN3F3TWp8zY1C6j/kNkPQKrlz5e3yccNY0i2fHYJxT2qsPoSvARHIcNQUl3YIi/3j8zDowD7wavWM2wYfJWG8X",
+            "container": "transcripts"
+        },
+        {
+            "type": "cosmosdb",
+            "id": "8",
+            "name": "subcommander",
+            "serviceName": "subcommander",
+            "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+            "subscriptionId": "8e2cadc0-d5cf-4dcf-a574-78c64fede621",
+            "resourceGroup": "SubCommander",
+            "endpoint": "https://subcommander.documents.azure.com:443/",
+            "key": "mCkWpWX0qU8H0cGS9mRivg==!6QvnNt8EhMXUI3+buSywamHNYpC8yRmkAKmuNGaGbKndFpI0N34OhU27rBU3ThkYLmgUfPB/8dJgXvWwXzjoG8waKHCIj3WHGnyGOuQyddUt4ws+gApYXKekIDb56xrv",
+            "database": "botstate-db",
+            "collection": "botstate-collection"
+        },
+        {
+            "type": "luis",
+            "name": "SubCommander_General",
+            "appId": "bfa72f3e-352c-4b43-9f39-41da0faf2228",
+            "authoringKey": "i3HrlzYFA4fcNcigDqqnFQ==!MJ8NGPgTn14Q/t+t4Q/7iQu5p6JdR93Bo8TA1BdtOtjIbHV3HHRLtlLTxdu9h0PU",
+            "subscriptionKey": "5ennqhmYlmpm8DCdyOr7NQ==!UXKlj7dW2aqmOxlc69g7zaNCkNlLjC9gxVdQjUL9t+ssk0pYEsTQhpBMJ12iqzJw",
+            "version": "0.1",
+            "region": "westus",
+            "id": "general"
+        },
+        {
+            "type": "qna",
+            "name": "FAQ",
+            "id": "faq",
+            "kbId": "797519bc-0b3a-4e9c-b877-933961658384",
+            "subscriptionKey": "8nIManXkXqU66QBHoh1PWA==!aNf+XmpN+NMRKJ3tkwF23irqo3R7zhooGL5E8n1xBZbVBR0D/vq8vJIL110xJ+3g",
+            "endpointKey": "MBSQreeDjFKynNk6FwJIdA==!kJLsNHx21ZhdUeKUt+O5zj6kNlgWeW6L3lAkuVfVrbgVfqhY8DySRZSUI7tDuwDK",
+            "hostname": "https://subcommander-qnahost.azurewebsites.net/qnamaker"
+        },
+        {
+            "type": "dispatch",
+            "serviceIds": [
+                "general",
+                "faq"
+            ],
+            "name": "SubCommander_Dispatch",
+            "appId": "6d518e1a-ec2e-46e7-8bb4-f51bca918583",
+            "authoringKey": "w154QfrURjTNVbotzgN6/Q==!NAmApoPtTK7D3vp4L0Xu9+U321iud60pCpwQSZa3vZOMaYXvd4U3cn3NBnXMP3r0",
+            "subscriptionKey": "73mC7qZn1JBX0IbepuF0ZA==!XxzR6FqD3rDj22hri/3G+S1+mhRUMYO1PUJXMBxrR1ek5gTgWt0suML9puSFikMt",
+            "version": "Dispatch",
+            "region": "westus",
+            "id": "dispatch"
+        }
+    ],
+    "padlock": "hLR3tSyGMP7xJc5PYQNn9Q==!M9hR2z3erwFU+Jre4yd6TyDX7IS3JNM1wQgsMK+AZAiMpFR9cMAiTOBLU/qB4xDu",
+    "version": "2.0"
+}
